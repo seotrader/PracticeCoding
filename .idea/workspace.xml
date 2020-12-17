@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5dac3f-66ea-4264-a01a-bea42420b8a4" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/BinaryTreeLevelOrderTraversal.kt" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/PowerSetBitMask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Permutations.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopKFrequentWords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopKFrequentWords.kt" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -64,10 +71,27 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Kotlin.TopKFrequentWordsKt">
     <configuration name="LRUCacheKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.PowerSetBitMaskKt">
+    <configuration name="LRUCacheKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -80,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestPalindromicSubStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -93,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -106,27 +130,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SubsetBackTrackingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PowerSetBitMaskKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="SubsetBackTrackingKt" />
+=======
+      <option name="MAIN_CLASS_NAME" value="PowerSetBitMaskKt" />
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TopKFrequentWordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PowerSetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="TopKFrequentWordsKt" />
+=======
+      <option name="MAIN_CLASS_NAME" value="PowerSetKt" />
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +174,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Kotlin.TopKFrequentWordsKt" />
         <item itemvalue="Kotlin.LongestPalindromicSubStringKt" />
         <item itemvalue="Kotlin.LRUCacheKt" />
         <item itemvalue="Kotlin.PermutationsKt" />
         <item itemvalue="Kotlin.SubsetBackTrackingKt" />
+=======
+        <item itemvalue="Kotlin.PowerSetBitMaskKt" />
+        <item itemvalue="Kotlin.PowerSetKt" />
+        <item itemvalue="Kotlin.LongestPalindromicSubStringKt" />
+        <item itemvalue="Kotlin.LRUCacheKt" />
+        <item itemvalue="Kotlin.PermutationsKt" />
+>>>>>>> fc03142bcdfac59d0f5fd486daccd1eb9673f8ab
       </list>
     </recent_temporary>
   </component>
@@ -178,12 +226,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="95" key="#Project_Structure" timestamp="1602386049546">
@@ -326,6 +375,11 @@
           <line>87</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PowerSetBitMask.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -334,6 +388,8 @@
         <watch expression="startIndex" language="kotlin" />
         <watch expression="lruQueueIndex" language="kotlin" />
         <watch expression="elements" language="kotlin" />
+        <watch expression="nteger.toBinaryString(i)" language="kotlin" />
+        <watch expression="Integer.toBinaryString(i)" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
