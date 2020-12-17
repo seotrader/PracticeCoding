@@ -1,3 +1,6 @@
+import java.util.*
+
+
 /*
 Given a non-empty list of words, return the k most frequent elements.
 
@@ -22,5 +25,53 @@ Follow up:
 Try to solve it in O(n log k) time and O(n) extra space.
  */
 
+fun main() {
+    var topKWords = TopKFrequentWords()
+
+    var words = arrayOf("i", "love", "leetcode", "i", "love", "coding")
+    var result = topKWords.topKFrequent(words, 2)
+    println("Result = $result")
+
+}
+
 class TopKFrequentWords {
+
+    private fun sortByComparator(unsortedMap: Map<String, Int>) : ArrayList<Map.Entry<String, Int>> {
+        val list = arrayListOf<Map.Entry<String, Int>>()
+        unsortedMap.forEach {
+            list.add(it)
+        }
+
+        list.sortWith(Comparator { o1, o2 ->
+            if (o1.value != o2.value) {
+                o2.value.compareTo(o1.value)
+            } else {
+                o1.key.compareTo(o2.key)
+            }
+
+        })
+        return list
+    }
+
+    var counterMap = hashMapOf<String, Int>()
+
+    fun topKFrequent(words: Array<String>, k: Int): List<String> {
+        var list = arrayListOf<String>()
+        // First add all the words to a hashMap
+        words.forEach {
+            if (counterMap.containsKey(it)) {
+                counterMap[it] = counterMap[it]!!+1
+            } else {
+                counterMap[it] = 1
+            }
+        }
+        println("map = $counterMap")
+        var sorted = sortByComparator(counterMap)
+        for (i in 0 until k) {
+            list.add(sorted[i].key)
+        }
+        return list
+
+
+    }
 }
