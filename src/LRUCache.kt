@@ -88,7 +88,4 @@ fun main() {
     lRUCache.put(1,2)
     println("Result = ${lRUCache.get(1)}")
     println("Result = ${lRUCache.get(2)}")
-
-
-
 }
