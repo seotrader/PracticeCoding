@@ -49,6 +49,4 @@ class SolutionPermutations {
         backTrack(n, numsArray, outPut, 0)
         return outPut
     }
-
-
 }

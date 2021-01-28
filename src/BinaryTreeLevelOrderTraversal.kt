@@ -33,7 +33,8 @@ class TreeNode(var `val`: Int) {
 }
 
 class BinaryTreeLevelOrderTraversal {
-    fun levelOrder(root: TreeNode?): List<List<Int>> {
+    fun levelOrder(root: TreeNode?): List<List<Int>>? {
+        return null
 
     }
 }
