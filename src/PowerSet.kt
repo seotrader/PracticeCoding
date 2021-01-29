@@ -39,7 +39,7 @@ class SolutionPowerSet {
         output.add(arrayListOf<Int>())
 
         for (i in nums) {
-            // create a new set, and add to it all previous sets
+            // create a new set, and to add to all previous sets
             var newSet = arrayListOf<List<Int>>()
 
             for (set in output) {
