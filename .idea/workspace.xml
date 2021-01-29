@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e118d06-d8bd-45b5-ae6a-57f3e652273f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PermutationsQuestion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReconstructItinerary.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeLevelOrderTraversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeLevelOrderTraversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPalindromicSubString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPalindromicSubString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Permutations.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nGUa4ZYC3fyi1sIkfH9qqTJh3T" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
