@@ -1,4 +1,6 @@
 import com.sun.org.apache.xpath.internal.operations.Bool
+import java.util.*
+import kotlin.collections.ArrayList
 
 /*
 Given a list of airline tickets represented by pairs of departure and arrival airports [from, to], reconstruct the itinerary in order. All of the tickets belong to a man who departs from JFK. Thus, the itinerary must begin with JFK.
@@ -28,7 +30,7 @@ fun main() {
 
 class ReconstructItinerary {
     private val ticketsMap = hashMapOf<String, ArrayList<String>>()
-    private val visited = hashMapOf<String, Boolean>()
+    private val visitedMap = hashMapOf<String, Array<Boolean>>()
     var result = arrayListOf<String>()
     var counter=0
     var size=0
@@ -36,34 +38,69 @@ class ReconstructItinerary {
     fun findItinerary(tickets: List<List<String>>): List<String> {
         size = tickets.size
         tickets.forEach {
-            if (ticketsMap[it[0]].isNullOrEmpty()) {
+            if (ticketsMap[it[0]]==null) {
                 ticketsMap[it[0]] = arrayListOf(it[1])
             } else {
                 ticketsMap[it[0]]?.add(it[1])
             }
         }
-        ticketsMap.values.forEach {
-            it.sort()
+
+        // Set the booolean array
+        ticketsMap.forEach {
+            it.value.sort()
+            visitedMap[it.key] = Array<Boolean>(it.value.size) { false }
         }
-        println("Tickets = $ticketsMap")
 
-        dfs("", "JFK")
+        println("ticketsMap = $ticketsMap")
+        println("visitedMap = $visitedMap")
 
+        // Backtrack
+        var route = LinkedList<String>()
 
+        route.add("JFK")
+
+        backtrack("JFK", route)
         return result
     }
 
-    fun dfs(orig: String, node: String) {
-        if (counter==4) return
-        if (orig != "") ticketsMap[orig]?.remove(node)
-        println("deleting $node from $orig")
-        visited[node] = true
-        counter++
-        if (ticketsMap[node]?.isEmpty()!!) return
-        result.add(node)
-        ticketsMap[node]?.forEach {
-            dfs(node, it)
+    fun backtrack(currentNode: String, route: LinkedList<String>): Boolean {
+        println("${route.size}, size=$size")
+        /// We had all flights
+        if (route.size == size+1) {
+            println("we have a solution. $route")
+            result = route.toList() as ArrayList<String>
+            return true
         }
-    }
 
+        if (!ticketsMap.containsKey(currentNode)) return false
+
+        var i = 0
+        var visitedArray = visitedMap[currentNode]
+
+        // Run on each node and try to find a solution
+        ticketsMap[currentNode]?.forEach {nextNode->
+            visitedArray?.let {
+                if (!it[i]) {
+
+                    it[i] = true
+                    println("Adding $nextNode. i=$i route=$route, route.size = ${route.size}")
+                    route.add(nextNode)
+                    val ret = backtrack(nextNode, route)
+
+                    // We didn't find a solution, backtrack
+                    if (ret) return true
+
+                    val removedVal = route.pollLast()
+                    println("remove $removedVal")
+                    it[i] = false
+
+
+                }
+                ++i
+            }
+        }
+
+        return false
+
+    }
 }
