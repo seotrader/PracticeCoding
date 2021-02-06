@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e118d06-d8bd-45b5-ae6a-57f3e652273f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ShortestPathinBinaryMatrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticePermutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practivePriorityQueue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReconstructItinerary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReconstructItinerary.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -52,8 +53,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Kotlin.ShortestPathinBinaryMatrixKt">
-    <configuration name="LongestPalindromicSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.PractivePriorityQueueKt">
+    <configuration name="LongestPalindromicSubStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -66,33 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePermutationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringKt" />
+      <option name="MAIN_CLASS_NAME" value="PracticePermutationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="PractivePriorityQueueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="PermutationsKt" />
+      <option name="MAIN_CLASS_NAME" value="PractivePriorityQueueKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructItineraryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ReconstructItineraryKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -105,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathinBinaryMatrixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ShortestPathinBinaryMatrixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -120,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PractivePriorityQueueKt" />
+        <item itemvalue="Kotlin.PracticePermutationKt" />
         <item itemvalue="Kotlin.ShortestPathinBinaryMatrixKt" />
         <item itemvalue="Kotlin.ReconstructItineraryKt" />
         <item itemvalue="Kotlin.LongestPalindromicSubStringKt" />
-        <item itemvalue="Kotlin.LongestPalindromicSubstringKt" />
-        <item itemvalue="Kotlin.PermutationsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,12 +159,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="750" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1611958589760">
@@ -206,6 +220,7 @@
         <watch expression="currentPoint" language="kotlin" />
         <watch expression="queue" language="kotlin" />
         <watch expression="distanceMap" language="kotlin" />
+        <watch expression="result" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
