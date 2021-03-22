@@ -26,7 +26,7 @@ Output: [""]
 fun main() {
     val removeInvalidParentheses = RemoveInvalidParentheses()
 
-    val orig = "(()"
+    val orig = "()("
     println("Orig = $orig")
     println("Result = ${removeInvalidParentheses.removeInvalidParentheses(orig)}")
 
@@ -49,11 +49,13 @@ class RemoveInvalidParentheses {
                rightCount: Int,
                exp: StringBuilder,
                removeCount: Int) {
+        // If we've reached the end of the string
         if (index == s.length) {
             if (removeCount <= minRemoveCount) {
                 // we got a valid one
                 if (leftCount == rightCount) {
                     if (removeCount < minRemoveCount) {
+                        // We found a shorter valid one, so clear it
                         result.clear()
                         minRemoveCount = removeCount
                     }
@@ -61,11 +63,14 @@ class RemoveInvalidParentheses {
                 }
             }
         } else {
+            // get the current character
             val currentCharacter = s[index]
             val length = exp.length
 
             if (currentCharacter != '(' && currentCharacter != ')') {
+                // Add it to the final solution
                 exp.append(currentCharacter)
+                // call helper for the current
                 helper(s , index + 1, leftCount, rightCount, exp, removeCount)
                 exp.deleteCharAt(length)
             } else {
@@ -81,5 +86,4 @@ class RemoveInvalidParentheses {
             }
         }
     }
-
 }

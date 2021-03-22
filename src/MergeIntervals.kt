@@ -37,10 +37,6 @@ fun main() {
     var merged = solution.merge(array)
 
     solution.print2dArray(merged)
-
-    (1..10).forEach {
-        println("$it")
-    }
 }
 
 class MergeIntervals {

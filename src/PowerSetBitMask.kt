@@ -30,7 +30,7 @@ fun main() {
 
     var nums = intArrayOf(1,2,3)
 
-    println("Result = ${powerSetBitMask.subsets(nums)}")
+    println("Result = ${powerSetBitMask.subsets2(nums)}")
 }
 
 class PowerSetBitMask {
@@ -52,5 +52,25 @@ class PowerSetBitMask {
 
         return output
     }
+
+    fun subsets2(nums: IntArray): List<List<Int>> {
+        var output = arrayListOf<List<Int>>()
+        val size = nums.size
+
+        for (i in 2.0.pow(size).toInt()..2.0.pow(size+1).toInt()) {
+            val binaryString = Integer.toBinaryString(i).substring(1)
+            val newSet = arrayListOf<Int>()
+
+            for (j in 0..nums.size-1) {
+                if (binaryString[j]=='1') {
+                    newSet.add(nums[j])
+                }
+            }
+            if (newSet.isNotEmpty()) output.add(newSet)
+        }
+        return output
+    }
+
+
 
 }

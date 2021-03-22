@@ -35,17 +35,17 @@ class SolutionPowerSet {
     fun subsets(nums: IntArray): List<List<Int>> {
         var output = arrayListOf<List<Int>>()
 
-        // add to output an empty array list
+        // add to output an empty array list --- empty set
         output.add(arrayListOf<Int>())
 
         for (i in nums) {
-            // create a new set, and to add to all previous sets
+            // create a new set, to add to the final result
             var newSet = arrayListOf<List<Int>>()
 
             for (set in output) {
                 // get set before
                 var setsBefore = ArrayList<Int>(set)
-                // add the number to each of set before
+                // add the number to each of the sets before
                 setsBefore.add(i)
                 // add the set to the new set
                 newSet.add(setsBefore)

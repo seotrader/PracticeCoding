@@ -40,52 +40,8 @@ At most 3 * 104 calls will be made to get and put.
 */
 
 class LRUCache(capacity: Int) {
-    private var cap=capacity
-    private var numElemets = 0
-    var elements = hashMapOf<Int, Int>()
-    var lruQueueIndex = arrayListOf<Int>()
-
-    fun get(key: Int): Int {
-        return if (elements.containsKey(key)) {
-            lruQueueIndex.remove(key)
-            lruQueueIndex.add(key)
-            elements[key]!!
-        } else {
-            -1
-        }
-    }
-
-    fun put(key: Int, value: Int) {
-        if (elements.containsKey(key)) {
-            elements[key] = value
-            lruQueueIndex.remove(key)
-            lruQueueIndex.add(key)
-            return
-        }
-
-        if (elements.size<cap) {
-            elements[key] = value
-            lruQueueIndex.add(key)
-        } else {
-            val indexToRemove = lruQueueIndex[0]
-            elements.remove(indexToRemove)
-            lruQueueIndex.remove(indexToRemove)
-            elements[key] = value
-            lruQueueIndex.add(key)
-        }
-
-    }
-
 }
 
 fun main() {
-    val lRUCache = LRUCache(2)
 
-    println("Result = ${lRUCache.get(2)}")
-    lRUCache.put(2, 6) // cache is {1=1, 2=2}
-    println("Result = ${lRUCache.get(1)}")
-    lRUCache.put(1,5)
-    lRUCache.put(1,2)
-    println("Result = ${lRUCache.get(1)}")
-    println("Result = ${lRUCache.get(2)}")
 }

@@ -64,7 +64,7 @@ class ShortestPathinBinaryMatrix {
         matrixSize = grid.size
         for (i in 0..matrixSize-1) {
             for (j in 0..matrixSize-1) {
-                visited[Point(i,j)] = false
+                visited[Point(i,j)] = false // can also used SET
             }
         }
 
@@ -73,6 +73,7 @@ class ShortestPathinBinaryMatrix {
         if (grid[firstPoint.y][firstPoint.x] == 1) return -1
         if (grid[firstPoint.y][firstPoint.x] == 0 && matrixSize==1) return 1
 
+        // In case we want to do with weights, priority queue is needed
         queue.add(firstPoint)
         distanceMap[firstPoint] = DistanceInfo(firstPoint, 1)
 
