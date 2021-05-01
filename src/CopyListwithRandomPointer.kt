@@ -54,12 +54,52 @@ Node.random is null or is pointing to some node in the linked list.
  */
 
 class ListNode(var `val`: Int) {
-         var next: Node? = null
-         var random: Node? = null
+         var next: ListNode? = null
+         var random: ListNode? = null
      }
 
 fun main() {
     val copyListwithRandomPointer = CopyListwithRandomPointer()
 }
 class CopyListwithRandomPointer {
+
+    var mapNodes = hashMapOf<ListNode, ListNode>()
+
+    fun copyRandomList(node: ListNode?): ListNode? {
+        if (node == null) return null
+
+        val head = node
+        var original: ListNode? = node
+
+        // Copy the first node
+        var copy: ListNode?= null
+
+        copy = ListNode(node.`val`)
+        mapNodes[original!!] = copy
+
+        val copyHead = copy
+
+        while (original != null) {
+            print("${original.`val`} ")
+            if (!mapNodes.containsKey(original)) {
+                val nodeNode = ListNode(original.`val`)
+                mapNodes[original] = nodeNode
+            }
+            if (original.next != null && !mapNodes.containsKey(original.next!!)) {
+                val nodeNode = ListNode(original.next!!.`val`)
+                mapNodes[original.next!!] = nodeNode
+            }
+            if (original.random != null && !mapNodes.containsKey(original.random!!)) {
+                val nodeNode = ListNode(original.random!!.`val`)
+                mapNodes[original.random!!] = nodeNode
+            }
+
+            copy?.next = mapNodes[original.next]
+            copy?.random = mapNodes[original.random]
+            original = original.next
+            copy = copy?.next
+        }
+        return copyHead
+    }
+
 }
