@@ -20,18 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e118d06-d8bd-45b5-ae6a-57f3e652273f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CourseSchedule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiameterofBinaryTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LowestCommonAncestor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrToNumber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SymmetricTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testCalls.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubString.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyListwithRandomPointer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyListwithRandomPointer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopKFrequentWords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopKFrequentWords.kt" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,21 +66,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Kotlin.TestCallsKt">
-    <configuration name="CopyListwithRandomPointerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="PracticeCoding" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="CopyListwithRandomPointerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.LongestSubStringKt">
+    <configuration name="ExampleTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -99,20 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePermutationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestSubStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="PracticePermutationKt" />
+      <option name="MAIN_CLASS_NAME" value="LongestSubStringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrToNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="StrToNumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -125,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCallsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCallsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -138,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopKFrequentWordsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="PracticeCoding" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TopKFrequentWordsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LongestSubStringKt" />
+        <item itemvalue="Kotlin.TopKFrequentWordsKt" />
         <item itemvalue="Kotlin.TestCallsKt" />
         <item itemvalue="Kotlin.StrToNumberKt" />
         <item itemvalue="Kotlin.ExampleTestKt" />
-        <item itemvalue="Kotlin.PracticePermutationKt" />
-        <item itemvalue="Kotlin.CopyListwithRandomPointerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,12 +190,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="94" key="#Project_Structure" timestamp="1612235025617">

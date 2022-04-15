@@ -71,7 +71,5 @@ class TopKFrequentWords {
             list.add(sorted[i].key)
         }
         return list
-
-
     }
 }
