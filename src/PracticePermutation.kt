@@ -1,5 +1,5 @@
 fun main() {
-    var numbers = intArrayOf(1,2,3)
+    var numbers = intArrayOf(1,2,3,4)
     val practivePermutation = PractivePermutation()
 
     val result = practivePermutation.returnPermutations(numbers)
@@ -24,15 +24,11 @@ class PractivePermutation {
         if (startPos == arr.size-1) {
             result.add(arr.clone())
         }
-
-        for (i in startPos until arr.size) {
-            // swap
-            arr[i] = arr[startPos].also {
-                arr[startPos] = arr[i]
-            }
-            // backtrack
-            backtrack(arr, startPos+1)
-            // swap
+        for (i in startPos..arr.size-1) {
+           arr[i] = arr[startPos].also {
+               arr[startPos] = arr[i]
+           }
+            backtrack(arr,startPos+1)
             arr[i] = arr[startPos].also {
                 arr[startPos] = arr[i]
             }

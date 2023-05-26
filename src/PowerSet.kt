@@ -28,34 +28,25 @@ fun main() {
 
     var nums = intArrayOf(1,2,3)
 
-    println("subsets = ${solutionPwerSet.subsets(nums)}")
+    println("subsets2 = ${solutionPwerSet.subsets2(nums)}")
 }
 
 class SolutionPowerSet {
-    fun subsets(nums: IntArray): List<List<Int>> {
-        var output = arrayListOf<List<Int>>()
-
-        // add to output an empty array list --- empty set
-        output.add(arrayListOf<Int>())
-
+    fun subsets2(nums: IntArray): List<List<Int>> {
+        val result = arrayListOf<List<Int>>()
+        result.add(arrayListOf())
         for (i in nums) {
-            // create a new set, to add to the final result
-            var newSet = arrayListOf<List<Int>>()
-
-            for (set in output) {
+            val newSet = arrayListOf<List<Int>>()
+            for (set in result) {
                 // get set before
                 var setsBefore = ArrayList<Int>(set)
-                // add the number to each of the sets before
                 setsBefore.add(i)
-                // add the set to the new set
                 newSet.add(setsBefore)
             }
-            // Add all new sets to the final result
-            for (curr in newSet) {
-                output.add(curr)
+            for (set in newSet) {
+                result.add(set)
             }
         }
-
-        return output
+        return result
     }
 }

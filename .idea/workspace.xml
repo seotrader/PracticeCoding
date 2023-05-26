@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e118d06-d8bd-45b5-ae6a-57f3e652273f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestSubString.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeCoding/META-INF/PracticeCoding.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TopKFrequentWords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopKFrequentWords.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PowerSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PowerSet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticePermutation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticePermutation.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -78,15 +79,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LongestSubStringKt">
-    <configuration name="ExampleTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.PowerSetKt">
+    <configuration name="HuffmanEncodingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTestKt" />
+      <option name="MAIN_CLASS_NAME" value="HuffmanEncodingKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,40 +106,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrToNumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberofIslandsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="StrToNumberKt" />
+      <option name="MAIN_CLASS_NAME" value="NumberofIslandsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCallsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerSetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TestCallsKt" />
+      <option name="MAIN_CLASS_NAME" value="PowerSetKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentWordsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePermutationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="PracticeCoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TopKFrequentWordsKt" />
+      <option name="MAIN_CLASS_NAME" value="PracticePermutationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PowerSetKt" />
+        <item itemvalue="Kotlin.NumberofIslandsKt" />
+        <item itemvalue="Kotlin.PracticePermutationKt" />
+        <item itemvalue="Kotlin.HuffmanEncodingKt" />
         <item itemvalue="Kotlin.LongestSubStringKt" />
-        <item itemvalue="Kotlin.TopKFrequentWordsKt" />
-        <item itemvalue="Kotlin.TestCallsKt" />
-        <item itemvalue="Kotlin.StrToNumberKt" />
-        <item itemvalue="Kotlin.ExampleTestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -389,9 +390,18 @@
     <state x="625" y="240" width="670" height="681" key="search.everywhere.popup/1920.418.1920.1057/0.23.1920.988/3840.598.1440.877@0.23.1920.988" timestamp="1617917355235" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PowerSet.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="sortedString" language="kotlin" />
+        <watch expression="setsBefore" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
